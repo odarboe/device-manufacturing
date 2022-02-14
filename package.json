@@ -1,0 +1,22 @@
+{
+  "name": "device-manufacturing",
+  "version": "1.0.0",
+  "description": "Import Manufacturing data files of devices into a database.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "manufacturing",
+    "import",
+    "database"
+  ],
+  "author": "odarboe",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^5.0.4",
+    "mongodb": "^4.3.1",
+    "mongodb-memory-server": "^8.3.0"
+  }
+}
